@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{font-family: "Rubik", sans-serif;
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #1C1C1C;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+   
+   padding-left: 3vw;
+
+   padding-right: 3vw;
+}
+.hero{
+    /* background-color: rgb(90, 84, 74); */
+    width: 100%;
+    height: 60vh;
+    /* border-bottom: 1px solid #363535; */
+}
+.name{
+    /* background-color: rgb(90, 84, 74); */
+    width: 100%;
+    border-bottom: 1px solid #363535;
+    height: 30vh;
+    font-size: 29vh;
+    color: #ffffff;
+    display: flex;
+    font-weight: 400;
+   justify-content: space-between;
+  
+}
+.nam{
+position: relative;
+right:  2vh;
+
+}
+.sr{
+    position: relative;
+    left: 2vh; 
+}
+.intro{
+    width: 100%;
+    font-size: 2.4vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    color:#9b9a9a ;
+}
+.controls,.inform{
+    right: 5.5vw;
+    position: relative;
+}
+.s{
+
+    display: inline-block;
+    position: relative;
+    left:  8.17vh;  
+}
+.sp{    color: aliceblue;
+    display: inline-block;
+    position: relative;
+    left:  8vh;
+}
+.p{
+    display: inline-block;
+    position: relative;
+    left:  5.2vh;
+}
+
+/* slides are staring from here  */
+/* page1 */
+.page1 a,.page2 a,.page3 a,.page4 a
+,.page5 a,.page6 a,.page7 a,.page8 a{
+    text-decoration: none;
+}
+.page1{ 
+    display: flex;
+    width: 100%;
+   
+    justify-content: space-between;
+    height: 90%;
+   
+/* background-color: #433232; */
+}
+.lt,.rt{
+    width: 95%;
+    height: 100%;
+/* background-color: #ffffff; */
+}
+.top{
+    width: 100%;
+    align-items: center;color: #ffffff;
+    border-top: 1px solid #363535;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    
+    /* background-color: #938585; */
+}
+.span_dark{
+    color: #747373;
+}
+.img_card{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    top: 2.5vh;  
+    border-radius: 2.5vh;
+    background-color:#2f2f2f ;
+    transition: 200ms;
+}
+.img_card:hover{
+    background-color:#5c5c5c ;
+}
+img{
+   position: relative;
+   left: 15%;
+   top: 12%;
+    width: 70%;
+}
+.page2{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 15vh;
+/* background-color: #433232; */
+}
+
+.page3,.page4{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 30vh;
+/* background-color: #433232; */
+}
+.page4{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 45vh;
+/* background-color: #433232; */
+}
+.page5{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 60vh;
+/* background-color: #433232; */
+}
+.page6{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 75vh;
+/* background-color: #433232; */
+}
+
+.page7{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 90vh;
+/* background-color: #433232; */
+}
+.page8{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+   position: relative;
+   top: 105vh;
+}
+.page9{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 13%;
+   position: relative;
+   border-top: 1px solid #666565;
+   color: #666565;
+   padding-top: 2vh;
+   top: 118vh;
+}
